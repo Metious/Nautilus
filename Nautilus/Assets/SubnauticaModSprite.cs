@@ -14,7 +14,7 @@ internal class ModSprite
     internal static void Add(SpriteManager.Group group, string name, Atlas.Sprite sprite)
     {
         if (group == SpriteManager.Group.None)
-            group = SpriteManager.Group.Item;
+            group = SpriteManager.Group.Itemr;
         // There are no calls for sprites in the None Group.
         // All sprite calls for almost anything we don't manually group is in the Item group.
 
